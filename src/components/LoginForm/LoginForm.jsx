@@ -12,7 +12,7 @@ export default function LoginForm() {
       .unwrap()
       .then()
       .catch(() => {
-        toast.error("Error, input correct data or maybe you are Moskal ", {
+        toast.error("Error, input correct data", {
           position: "top-center",
         });
       });
