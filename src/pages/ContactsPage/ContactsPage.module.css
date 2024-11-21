@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.contactForm {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contactForm input,
+.contactForm button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contactForm input:focus,
+.contactForm button:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.contactForm button {
+  background-color: #28a745;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.contactForm button:hover {
+  background-color: #218838;
+}
+
+.searchBox {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.searchBox input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.searchBox input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.contactList {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.contactList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactList li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactList li:last-child {
+  border-bottom: none;
+}
+
+.contactList button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contactList button:hover {
+  background-color: #c82333;
+}
+
+.loaderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.errorWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: red;
+  font-size: 1.2rem;
+}
+
+.errorWrapper p {
+  margin-left: 10px;
+}

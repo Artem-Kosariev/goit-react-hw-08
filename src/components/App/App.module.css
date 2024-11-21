@@ -1,0 +1,108 @@
+/* Основной контейнер приложения */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f7fb;
+  color: #333;
+  padding: 20px;
+}
+
+/* Стиль для лейаута */
+.layout {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Заголовок страницы */
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  color: #2c3e50;
+}
+
+/* Общий стиль для всех страниц */
+.pageContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Стили для форм */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.inputField {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.inputField:focus {
+  border-color: #3498db;
+}
+
+.button {
+  background-color: #3498db;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+/* Стиль для спиннера загрузки */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #3498db;
+  border-top: 5px solid transparent;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Окно уведомлений */
+.toaster {
+  z-index: 9999;
+}

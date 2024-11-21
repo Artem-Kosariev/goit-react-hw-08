@@ -1,0 +1,25 @@
+.listWrapper {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.listItem {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listItem p {
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,15 @@
+.container {
+  border: 1px solid rgb(0, 38, 255);
+  border-radius: 4px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.myIcon {
+  vertical-align: middle;
+  margin-right: 8px;
+  color: black;
+}
